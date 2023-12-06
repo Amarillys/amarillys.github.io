@@ -1,0 +1,8 @@
+#sidebar {    
+    backdrop-filter: blur(2px);
+    text-shadow: .5px 0.5px 0.5px black;
+}
+
+#main {
+    opacity: 0.95;
+}
