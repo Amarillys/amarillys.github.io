@@ -6,3 +6,11 @@
 #main {
     opacity: 0.95;
 }
+
+.post-header-cover {
+    max-height: 36vh;
+}
+
+.post-title {
+    backdrop-filter: blur(2px);
+}
