@@ -1,10 +1,22 @@
-#sidebar {    
+#sidebar {
     backdrop-filter: blur(2px);
     text-shadow: .5px 0.5px 0.5px black;
 }
 
 #main {
     opacity: 0.95;
+    font-family: math;
+}
+
+#main h1 {
+    font-size: 2.5rem;
+    line-height: 1.3em;
+    font-weight: 400;
+    -webkit-text-stroke: 0.3px pink;
+}
+
+.main-content-wrap {
+    max-width: 60vw;
 }
 
 .post-header-cover {
@@ -16,6 +28,14 @@
 }
 
 @media only screen and (min-width: 1280px) {
+    #sidebar[data-behavior="1"] {
+        width: 420px;
+    }
+
+    #main[data-behavior="1"] {
+        width: calc(100% - 420px);
+    }
+
     .post-header-cover .post-header .post-title {
         font-size: 5rem;
         line-height: 1.3em;
@@ -24,4 +44,55 @@
 
 .post-header {
     background-color: #8cb78c63;
+}
+
+.postShorten-excerpt p {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 480px) {
+    .postShorten.postShorten--thumbnailimg-right .postShorten-thumbnailimg {
+        margin: 5px 0 15px 15px;
+    }
+
+    .postShorten.postShorten--thumbnailimg-right .postShorten-thumbnailimg img {
+        width: 192px;
+        height: 192px;
+    }
+
+    .postShorten.postShorten--thumbnailimg-right .postShorten-wrap {
+        float: left;
+        width: calc(100% - 192px - 20px);
+    }
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6e0f0bb;
+    border-radius: 14px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
+.postShorten.postShorten--thumbnailimg-right .postShorten-thumbnailimg:hover {
+    margin: 0;
+    width: 197px;
+    height: 212px;
+}
+
+.postShorten-thumbnailimg img:hover {
+    transform: translate(0,1.5px) rotate(2.5deg) scale(1.2);
+    transition: all .25s ease-out,border .25s ease-out,opacity .25s ease-out;;
 }
