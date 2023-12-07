@@ -14,3 +14,14 @@
 .post-title {
     backdrop-filter: blur(2px);
 }
+
+@media only screen and (min-width: 1280px) {
+    .post-header-cover .post-header .post-title {
+        font-size: 5rem;
+        line-height: 1.3em;
+    }
+}
+
+.post-header {
+    background-color: #8cb78c63;
+}
