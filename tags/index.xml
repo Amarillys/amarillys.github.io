@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Amarillys</title>
-    <link>https://amarillys.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Amarillys</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 07 Dec 2023 02:25:58 +0800</lastBuildDate>
-    <atom:link href="https://amarillys.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Onedrive</title>
-      <link>https://amarillys.github.io/tags/onedrive/</link>
+      <link>/tags/onedrive/</link>
       <pubDate>Thu, 07 Dec 2023 02:25:58 +0800</pubDate>
-      <guid>https://amarillys.github.io/tags/onedrive/</guid>
+      <guid>/tags/onedrive/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://amarillys.github.io/tags/windows/</link>
+      <link>/tags/windows/</link>
       <pubDate>Thu, 07 Dec 2023 02:25:58 +0800</pubDate>
-      <guid>https://amarillys.github.io/tags/windows/</guid>
+      <guid>/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>diary</title>
-      <link>https://amarillys.github.io/tags/diary/</link>
+      <link>/tags/diary/</link>
       <pubDate>Wed, 06 Dec 2023 18:20:41 +0800</pubDate>
-      <guid>https://amarillys.github.io/tags/diary/</guid>
+      <guid>/tags/diary/</guid>
       <description></description>
     </item>
   </channel>
