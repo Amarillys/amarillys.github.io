@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://amarillys.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2023-12-07T02:25:58+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2023-12-07T02:25:58+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/categories/diary/</loc>
+    <loc>/categories/diary/</loc>
     <lastmod>2023-12-07T02:25:58+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/tags/onedrive/</loc>
+    <loc>/tags/onedrive/</loc>
     <lastmod>2023-12-07T02:25:58+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2023-12-07T02:25:58+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2023-12-07T02:25:58+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/tags/windows/</loc>
+    <loc>/tags/windows/</loc>
     <lastmod>2023-12-07T02:25:58+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/post/onedrive-thumbnail/</loc>
+    <loc>/post/onedrive-thumbnail/</loc>
     <lastmod>2023-12-07T02:25:58+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/tags/diary/</loc>
+    <loc>/tags/diary/</loc>
     <lastmod>2023-12-06T18:20:41+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/post/first/</loc>
+    <loc>/post/first/</loc>
     <lastmod>2023-12-06T18:20:41+08:00</lastmod>
   </url><url>
-    <loc>https://amarillys.github.io/archives/</loc>
+    <loc>/archives/</loc>
   </url>
 </urlset>
