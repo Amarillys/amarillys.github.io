@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Windows on Amarillys</title>
+    <title>Windows on Maimai Suirai</title>
     <link>/tags/windows/</link>
-    <description>Recent content in Windows on Amarillys</description>
+    <description>Recent content in Windows on Maimai Suirai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Dec 2023 02:25:58 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows OneDrive文件夹下的文件不显示缩略图</title>
-      <link>/post/onedrive-thumbnail/</link>
-      <pubDate>Thu, 07 Dec 2023 02:25:58 +0800</pubDate>
-      <guid>/post/onedrive-thumbnail/</guid>
-      <description>&lt;p&gt;不知道为啥，这个Windows 11下，onedrive的图片都无法展示预览图。我这些图片都是本地存在的，查了很多方法，清缓存也没用&lt;/p&gt;&#xA;&lt;p&gt;看了下别的地方的图片是可以正常显示缩略图的，灵机一动试了一下mklink&lt;/p&gt;</description>
+      <link>/2023/12/onedrive-thumbnail/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/2023/12/onedrive-thumbnail/</guid>
+      <description>&lt;p&gt;不知道为啥，这个Windows 11下，onedrive的图片都无法展示预览图。这些图片都是本地存在的，查了很多方法，清缓存也没用&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

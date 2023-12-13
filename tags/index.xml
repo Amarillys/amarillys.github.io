@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Amarillys</title>
+    <title>Tags on Maimai Suirai</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Amarillys</description>
+    <description>Recent content in Tags on Maimai Suirai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Dec 2023 02:25:58 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Onedrive</title>
       <link>/tags/onedrive/</link>
-      <pubDate>Thu, 07 Dec 2023 02:25:58 +0800</pubDate>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       <guid>/tags/onedrive/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
       <link>/tags/windows/</link>
-      <pubDate>Thu, 07 Dec 2023 02:25:58 +0800</pubDate>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       <guid>/tags/windows/</guid>
       <description></description>
     </item>

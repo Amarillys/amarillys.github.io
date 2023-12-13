@@ -4,10 +4,13 @@
     
     <script type="application/ld+json">
 
-{  
-  "@context":"http://schema.org",
-  "@type":"Website",
-  "@id":"\/",
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Posts",
+  
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "2023-12-07T00:00:00Z",
   "author": {
     "@type": "Person",
     "name": "Maimai Suirai",
@@ -15,10 +18,22 @@
     "image": "https://www.gravatar.com/avatar/b8268bb49ad4b9d97352c73e035fd0a7"
     
   },
-  "name":"Amarillys",
-  "description":"Hugo tranquilpeak theme demo",
-  "url":"\/post\/",
-  "keywords":"[, development, coding, diary]"
+  "mainEntityOfPage": { 
+    "@type": "WebPage",
+    "@id": "\/posts\/" 
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Maimai Suirai",
+    
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.gravatar.com/avatar/b8268bb49ad4b9d97352c73e035fd0a7"
+    }
+    
+  },
+  "description": "",
+  "keywords": [, "development, coding, diary"]
 }
 
 </script>
@@ -35,9 +50,9 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Posts">
 <meta name="twitter:title" content="Posts">
-<meta property="og:url" content="/post/">
-<meta property="twitter:url" content="/post/">
-<meta property="og:site_name" content="Amarillys">
+<meta property="og:url" content="/posts/">
+<meta property="twitter:url" content="/posts/">
+<meta property="og:site_name" content="Maimai Suirai">
 <meta property="og:description" content="Hugo tranquilpeak theme demo">
 <meta name="twitter:description" content="Hugo tranquilpeak theme demo">
 <meta property="og:locale" content="zh-cn">
@@ -65,14 +80,14 @@
 
     <title>Posts</title>
 
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/favicon.ico">
     
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="/post/index.xml">
-    
-
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/posts/index.xml">
     
 
-    <link rel="canonical" href="/post/">
+    
+
+    <link rel="canonical" href="/posts/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -99,7 +114,7 @@
       <header id="header" data-behavior="1">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
-    <a class="header-title-link" href="/" aria-label="去首页">Amarillys</a>
+    <a class="header-title-link" href="/" aria-label="去首页">Maimai Suirai</a>
   </div>
   
     
@@ -205,6 +220,16 @@
     </a>
   </li>
 
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://nnnewb.github.io/blog/" title="Weakptr">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-envira" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Weakptr</span>
+    </a>
+  </li>
+
 
     </ul>
     <ul class="sidebar-buttons">
@@ -239,10 +264,6 @@
     
       
         
-          
-            
-          
-        
       
     
   
@@ -256,7 +277,7 @@
     <div class="postShorten-header">
       <h1 class="postShorten-title">
       
-        <a class="link-unstyled" href="/post/onedrive-thumbnail/" aria-label="打开帖子: Windows OneDrive文件夹下的文件不显示缩略图">
+        <a class="link-unstyled" href="/2023/12/onedrive-thumbnail/" aria-label="打开帖子: Windows OneDrive文件夹下的文件不显示缩略图">
       
           Windows OneDrive文件夹下的文件不显示缩略图
         </a>
@@ -264,7 +285,7 @@
       
   <div class="postShorten-meta post-meta">
     
-      <time datetime="2023-12-07T02:25:58&#43;08:00">
+      <time datetime="2023-12-07T00:00:00Z">
         
   十二月 7, 2023
 
@@ -284,23 +305,16 @@
     </div>
     <div class="postShorten-excerpt">
       
-        <p>不知道为啥，这个Windows 11下，onedrive的图片都无法展示预览图。我这些图片都是本地存在的，查了很多方法，清缓存也没用</p>
-<p>看了下别的地方的图片是可以正常显示缩略图的，灵机一动试了一下mklink</p>
+        <p>不知道为啥，这个Windows 11下，onedrive的图片都无法展示预览图。这些图片都是本地存在的，查了很多方法，清缓存也没用</p>
       
       <p>
         
-          <a href="/post/onedrive-thumbnail/" class="postShorten-excerpt_link link" aria-label="打开帖子: Windows OneDrive文件夹下的文件不显示缩略图">阅读全文</a>
+          <a href="/2023/12/onedrive-thumbnail/" class="postShorten-excerpt_link link" aria-label="打开帖子: Windows OneDrive文件夹下的文件不显示缩略图">阅读全文</a>
         
         
       </p>
     </div>
   </div>
-  
-    <a href="/post/onedrive-thumbnail/" aria-label="打开帖子: Windows OneDrive文件夹下的文件不显示缩略图">
-      <div class="postShorten-thumbnailimg">
-        <img alt="" src="/image/post/onedrive-thumbnail/onedrive-bug.png"/>
-      </div>
-    </a>
   
 </article>
 
@@ -323,7 +337,7 @@
     <div class="postShorten-header">
       <h1 class="postShorten-title">
       
-        <a class="link-unstyled" href="/post/first/" aria-label="打开帖子: Rebirth by Hugo">
+        <a class="link-unstyled" href="/2023/12/first/" aria-label="打开帖子: Rebirth by Hugo">
       
           Rebirth by Hugo
         </a>
@@ -351,12 +365,13 @@
     </div>
     <div class="postShorten-excerpt">
       
-        总之用一下github pages好了，云服务器那些早晚都会过期
-找到个Hugo好像很受欢迎的样子，就来试试，还找了个看起来不错的主题
+        <p>总之用一下github pages好了，云服务器那些早晚都会过期</p>
+<p>找到个Hugo好像很受欢迎的样子，就来试试，还找了个看起来不错的主题</p>
+<p>使用的主题：<a href="https://tranquilpeak.kakawait.com">Tranquilpeak</a></p>
       
       <p>
         
-          <a href="/post/first/" class="postShorten-excerpt_link link" aria-label="打开帖子: Rebirth by Hugo">阅读全文</a>
+          <a href="/2023/12/first/" class="postShorten-excerpt_link link" aria-label="打开帖子: Rebirth by Hugo">阅读全文</a>
         
         
       </p>
