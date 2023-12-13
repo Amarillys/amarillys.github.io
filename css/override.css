@@ -6,13 +6,18 @@
 #main {
     opacity: 0.95;
     font-family: math;
+    background-color: #ffffffc0;
 }
 
 #main h1 {
     font-size: 2.5rem;
     line-height: 1.3em;
     font-weight: 400;
-    -webkit-text-stroke: 0.3px pink;
+    -webkit-text-stroke: 0.3px #97626b66;
+}
+
+#cover {
+    backdrop-filter: brightness(0.2);
 }
 
 .main-content-wrap {
