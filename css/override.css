@@ -31,6 +31,7 @@
     max-height: 36vh;
 }
 
+
 @media only screen and (min-width: 1280px) {
     #main[data-behavior="1"] {
         padding-top: 0;
@@ -72,6 +73,9 @@
 }
 
 @media only screen and (min-width: 480px) {
+    .postShorten.postShorten--thumbnailimg-left .postShorten-thumbnailimg {
+        margin: 5px 15px 15px 0;
+    }
     .postShorten.postShorten--thumbnailimg-right .postShorten-thumbnailimg {
         margin: 5px 0 15px 15px;
     }
@@ -136,4 +140,8 @@
 .postShorten-thumbnailimg img:hover {
     transform: translate(0,1.5px) rotate(2.5deg) scale(1.2);
     transition: all .25s ease-out,border .25s ease-out,opacity .25s ease-out;;
+}
+
+.codeblock {
+    background: #f7f8f8dd;
 }
