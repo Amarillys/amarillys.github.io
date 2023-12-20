@@ -6,20 +6,41 @@
     <description>Recent content in Tags on Maimai Suirai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Dec 2023 17:11:42 +0800</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Onedrive</title>
-      <link>/tags/onedrive/</link>
-      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/onedrive/</guid>
+      <title>Fun</title>
+      <link>/tags/fun/</link>
+      <pubDate>Wed, 20 Dec 2023 17:11:42 +0800</pubDate>
+      <guid>/tags/fun/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>/tags/hardware/</link>
+      <pubDate>Wed, 20 Dec 2023 17:11:42 +0800</pubDate>
+      <guid>/tags/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tablet</title>
+      <link>/tags/tablet/</link>
+      <pubDate>Wed, 20 Dec 2023 17:11:42 +0800</pubDate>
+      <guid>/tags/tablet/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
       <link>/tags/windows/</link>
-      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Dec 2023 17:11:42 +0800</pubDate>
       <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Onedrive</title>
+      <link>/tags/onedrive/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/tags/onedrive/</guid>
       <description></description>
     </item>
     <item>

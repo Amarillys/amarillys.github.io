@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Windows on Maimai Suirai</title>
-    <link>/tags/windows/</link>
-    <description>Recent content in Windows on Maimai Suirai</description>
+    <title>Hardware on Maimai Suirai</title>
+    <link>/tags/hardware/</link>
+    <description>Recent content in Hardware on Maimai Suirai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 20 Dec 2023 17:11:42 +0800</lastBuildDate>
-    <atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hp Elite X2 1012g1 Fun</title>
       <link>/2023/12/hp-elite-x2-1012g1-fun/</link>
       <pubDate>Wed, 20 Dec 2023 17:11:42 +0800</pubDate>
       <guid>/2023/12/hp-elite-x2-1012g1-fun/</guid>
       <description>&lt;p&gt;最近在群友的推荐下花了 159 + 13（运费） 买了一个 惠普的二合一本 - Elite x2 1012 G1，159说的是 m5 6y57 8g，屏幕坏，电池随机，然而实际上到手发现&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Windows OneDrive文件夹下的文件不显示缩略图</title>
-      <link>/2023/12/onedrive-thumbnail/</link>
-      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/2023/12/onedrive-thumbnail/</guid>
-      <description>&lt;p&gt;不知道为啥，这个Windows 11下，onedrive的图片都无法展示预览图。这些图片都是本地存在的，查了很多方法，清缓存也没用&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
