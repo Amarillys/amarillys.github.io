@@ -145,3 +145,8 @@
 .codeblock {
     background: #f7f8f8dd;
 }
+
+hr {
+    border-top-width: 2px;
+    border-top-color: #56565656;
+}
