@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PNG信息提取</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: row;">
+        <input type="file" id="fileInput">
+        <button id="copyBtn1" onclick="copyToClipBoard('1')">复制到剪贴板</button>　　
+        <button id="copyBtn2" onclick="copyToClipBoard('2')">复制其他信息到剪贴板</button>
+    </div>
+<div id="textDisplay1"></div>
+<br>
+<div id="textDisplay2"></div>
+<img id="displayImage" style="max-width: 30%;">
+<script>
+document.getElementById('fileInput').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    
+    document.getElementById('copyBtn1').textContent = '复制到剪贴板'
+    document.getElementById('copyBtn2').textContent = '复制其他信息到剪贴板'
+    if (file && file.type === 'image/png') {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const contents = e.target.result;
+            // 这里需要添加解析PNG并提取文本信息的逻辑
+            // 假设extractTextFromPNG是一个可以提取文本的函数
+            const text = extractTextFromPNG(contents);
+            document.getElementById('displayImage').src = URL.createObjectURL(new Blob([new Uint8Array(contents)]))
+            displayText(text);
+        };
+        reader.readAsArrayBuffer(file);
+    } else {
+        alert('Please select a PNG file.');
+    }
+});
+
+function displayText(text) {
+    const textDisplay = document.getElementById('textDisplay');
+    textDisplay1.innerText = text[0];
+    const textDisplay2 = document.getElementById('textDisplay2');
+    textDisplay2.innerText = text[1];
+}
+
+// 你需要实现这个函数来解析PNG文件并提取文本信息
+function extractTextFromPNG(pngContents) {
+    let pointer = 8
+    let texts = []
+    const textDecoder = new TextDecoder()
+    do {
+        let chunkLength = new DataView(pngContents.slice(pointer, pointer + 4)).getInt32()
+        pointer += 4
+        let chunkType = textDecoder.decode(pngContents.slice(pointer, pointer + 4))
+        pointer += 4
+        let data = pngContents.slice(pointer, pointer + chunkLength)
+        pointer += chunkLength
+        pointer += 4
+        if (chunkType.toUpperCase().includes('EXT') || chunkType.toUpperCase().includes('TXT')) {
+            text = textDecoder.decode(data)
+            // tusi
+            if (text.slice(0, 6) == 'prompt') {
+                let promptData = JSON.parse(text.slice(7))
+                for (let dataIndex in promptData) {
+                    if (promptData[dataIndex].class_type == 'CLIPTextEncode') {
+                        texts.push(promptData[dataIndex].inputs.text)
+                        if (texts.length === 2) return texts
+                    }
+                }
+            }
+            // webui
+            if (text.slice(0, 10) == 'parameters') {
+                return text.slice(15).split('Negative prompt: ')
+            }
+
+        }
+    } while (pointer < 16384)
+}
+
+function copyToClipBoard(id) {
+  // Get the text field
+  var copyText = document.getElementById('textDisplay' + id).innerText;
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText);
+
+  // Alert the copied text
+  //alert("Copied the text: " + copyTexte);
+  document.getElementById('copyBtn' + id).textContent = '已复制到剪贴板'
+}
+</script>
+</body>
+</html>
