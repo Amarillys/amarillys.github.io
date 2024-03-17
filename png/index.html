@@ -58,7 +58,7 @@ function extractTextFromPNG(pngContents) {
         pointer += 4
         if (chunkType.toUpperCase().includes('EXT') || chunkType.toUpperCase().includes('TXT')) {
             text = textDecoder.decode(data)
-            // tusi
+            // tusi,comfyui
             if (text.slice(0, 6) == 'prompt') {
                 let promptData = JSON.parse(text.slice(7))
                 for (let dataIndex in promptData) {
@@ -73,6 +73,10 @@ function extractTextFromPNG(pngContents) {
                 return text.slice(15).split('Negative prompt: ')
             }
 
+            // nai
+            if (text.slice(0, 11) == 'Description') {
+                return [text.slice(13), '']
+            }
         }
     } while (pointer < 16384)
 }
