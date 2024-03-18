@@ -75,7 +75,7 @@ function extractTextFromPNG(pngContents) {
 
             // nai
             if (text.slice(0, 11) == 'Description') {
-                return [text.slice(13), '']
+                return [text.slice(12), '']
             }
         }
     } while (pointer < 16384)
