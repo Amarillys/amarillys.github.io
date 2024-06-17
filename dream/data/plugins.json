@@ -1,0 +1,55 @@
+{
+  "weather-card": {
+    "apiKey": "2f8430444ac94ec68d1e112a523ec064",
+    "location": {
+      "name": "深圳龙华",
+      "latitude": 114.0385,
+      "longitude": 22.626
+    },
+    "location2": {
+      "name": "武汉洪山",
+      "latitude": 114.35,
+      "longitude": 30.51
+    },
+    "lang": "zh"
+  },
+  "collection-card": {
+    "collections": [{
+      "name": "Twitter",
+      "url": "https://twitter.com",
+      "color": "blue"
+    }, {
+      "name": "Pixiv",
+      "url": "https://pixiv.net",
+      "color": "blue"
+    }, {
+      "name": "Bilibili",
+      "url": "https://bilibili.com",
+      "color": "blue"
+    }, {
+      "name": "JD Orders",
+      "url": "https://order.jd.com/center/list.action",
+      "color": "red"
+    }, {
+      "name": "IT Home",
+      "url": "https://ithome.com",
+      "color": "blue"
+    }, {
+      "name": "KaiHeiLa",
+      "url": "https://www.kaiheila.cn/",
+      "color": "blue"
+    }, {
+      "name": "Pixiv#KK",
+      "url": "https://www.pixiv.net/tags/キャラ配布(コイカツ)/artworks",
+      "color": "blue"
+    }, {
+      "name": "Github",
+      "url": "https://github.com/Amarillys",
+      "color": "black"
+    }, {
+      "name": "Kemono",
+      "url": "https://kemono.party/favorites",
+      "color": "blue"
+    }]
+  }
+}
